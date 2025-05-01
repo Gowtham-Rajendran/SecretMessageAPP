@@ -57,6 +57,10 @@ public class PhoneAuthActivity extends AppCompatActivity {
             return;
         }
 
+        if (!phone.startsWith("+91")) {
+            phone = "+91" + phone;
+        }
+
         PhoneAuthOptions options =
                 PhoneAuthOptions.newBuilder(mAuth)
                         .setPhoneNumber(phone)
@@ -105,7 +109,7 @@ public class PhoneAuthActivity extends AppCompatActivity {
             if (task.isSuccessful()) {
                 Toast.makeText(this, "Phone number verified!", Toast.LENGTH_SHORT).show();
                 // TODO: Redirect to ViewMessageActivity
-                // startActivity(new Intent(this, ViewMessagesActivity.class));
+                 startActivity(new Intent(this, ViewMessagesActivity.class));
                 finish();
             } else {
                 Toast.makeText(this, "Incorrect OTP. Try again.", Toast.LENGTH_SHORT).show();
