@@ -1,13 +1,14 @@
 {
   "project_info": {
-    "project_number": "81005646112",
-    "project_id": "secret-message-app-95770",
-    "storage_bucket": "secret-message-app-95770.firebasestorage.app"
+    "project_number": "793273914034",
+    "firebase_url": "https://secret-message-app2-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "secret-message-app2",
+    "storage_bucket": "secret-message-app2.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:81005646112:android:3fd3d85cb8a51ca8c10745",
+        "mobilesdk_app_id": "1:793273914034:android:538aefee66c6a02feb2fab",
         "android_client_info": {
           "package_name": "com.Gowtham.secretmessageapp"
         }
@@ -15,7 +16,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBwTMNVodNC-zQ4hUo-Ea7Vp3w_at3dzlE"
+          "current_key": "AIzaSyB6B4azEZjiVFstEBvnmU9t9v_m-K16VC0"
         }
       ],
       "services": {
